@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 1rem 2rem;
+}
+.logo {
+  height: 48px;
+}
+nav a {
+  margin: 0 1rem;
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.contact-info span {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+main {
+  padding: 2rem;
+}
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  padding: 0.6rem 1.4rem;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 5px;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffcc66;
+}
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+  font-size: 0.9rem;
+}
